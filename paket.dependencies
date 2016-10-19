@@ -1,0 +1,15 @@
+source https://api.nuget.org/v3/index.json
+
+nuget Fsharp.Core
+
+group Build
+      source https://api.nuget.org/v3/index.json
+
+      nuget FAKE
+      nuget FSharp.Formatting
+
+group Test
+      source https://api.nuget.org/v3/index.json
+
+      nuget Nunit
+      nuget Nunit.Runners
