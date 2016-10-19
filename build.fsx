@@ -14,7 +14,7 @@ let project = "DummyApp"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "F# tutorial"
+let summary = "F# dummy app"
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
@@ -86,8 +86,8 @@ Target "Clean" (fun _ ->
 // Build library & test project
 Target "Build" (fun _ ->
     !! solutionFile
-    |> MSBuildRelease "" "Rebuild"
-    |> ignore
+    |> MSBuildRelease "" "Build"
+    |> Log "Building project: "
 )
 
 
