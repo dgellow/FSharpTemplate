@@ -1,4 +1,4 @@
-# Template for F# projects
+# Template for F# projects [![CircleCI](https://circleci.com/gh/dgellow/FSharpTemplate.svg?style=svg)](https://circleci.com/gh/dgellow/FSharpTemplate)
 
 F# plus [Paket](http://fsprojects.github.io/Paket/) to manage depedencies and [FAKE](https://fsharp.github.io/FAKE/) to manage builds.
 
