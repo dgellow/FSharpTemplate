@@ -21,7 +21,7 @@ let summary = "F# tutorial"
 let description = ""
 
 // List of author names (for NuGet package)
-let authors = [ "Jet.com" ]
+let authors = [ "Samuel El-Borai <samuel.elborai@gmail.com>" ]
 
 // Tags for your project (for NuGet package)
 let tags = ""
